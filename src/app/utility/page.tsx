@@ -9,8 +9,8 @@ export default function UtilityFirstConcept() {
     component: false
   })
 
-  const toggleCode = (type) => {
-    setShowCode(prev => ({
+  const toggleCode = (type: any) => {
+    setShowCode((prev: any) => ({
       ...prev,
       [type]: !prev[type]
     }))

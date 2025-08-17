@@ -158,32 +158,29 @@ export default function HomePage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">
-                  组件开发与样式组合
+                颜色与背景
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
+                  <Link href="/fontcolor" className='hover:text-orange-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
                     <span>文字颜色和背景颜色</span>
                   </li>
+                  </Link>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
-                    <span>样式复用与抽象策略</span>
+                    <span>渐变背景</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
-                    <span>自定义组件库构建</span>
+                    <span>背景图片和位置</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
-                    <span>最佳实践与性能优化</span>
+                    <span>透明度和混合模式</span>
                   </li>
                 </ul>
-                <a href="/chapter4" className="text-orange-600 hover:text-orange-800 font-medium hover:underline inline-flex items-center">
-                  开始学习
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
+              
               </div>
             </div>
           </div>
@@ -196,7 +193,7 @@ export default function HomePage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-indigo-600 transition-colors">
-                  自定义配置与扩展
+                字体与文字
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
                   <li className="flex items-center space-x-2">

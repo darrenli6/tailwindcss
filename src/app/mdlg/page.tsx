@@ -11,7 +11,7 @@ export default function ResponsiveBreakpointsDemo() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  const getBreakpointInfo = (width) => {
+  const getBreakpointInfo = (width:any) => {
     if (width >= 1536) return { name: '2xl', color: 'purple', range: '≥1536px' }
     if (width >= 1280) return { name: 'xl', color: 'blue', range: '1280px-1535px' }
     if (width >= 1024) return { name: 'lg', color: 'green', range: '1024px-1279px' }

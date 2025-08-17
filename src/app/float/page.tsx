@@ -73,9 +73,9 @@ export default function TailwindFloatClearTutorial() {
         }
       ]
     }
-  };
+  } as any;
 
-  const renderDemo = (example) => {
+  const renderDemo = (example: any) => {
     const { demo, class: className } = example;
 
     switch (demo) {
@@ -326,7 +326,7 @@ export default function TailwindFloatClearTutorial() {
 
           {/* 示例区域 */}
           <div className="space-y-8">
-            {sections[activeSection].examples.map((example, index) => (
+            {sections[activeSection].examples.map((example:any, index:any) => (
               <div key={index} className="border-l-4 border-orange-400 pl-6">
                 <div className="mb-4">
                   <h3 className="text-lg font-semibold text-gray-700 mb-2">

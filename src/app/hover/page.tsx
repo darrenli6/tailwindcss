@@ -12,8 +12,8 @@ export default function StateVariantsDemo() {
   const [inputValue, setInputValue] = useState('')
   const [isPressed, setIsPressed] = useState(false)
 
-  const handleCheckboxChange = (itemId) => {
-    setCheckedItems(prev => ({
+  const handleCheckboxChange = (itemId :any) => {
+    setCheckedItems((prev: any) => ({
       ...prev,
       [itemId]: !prev[itemId]
     }))

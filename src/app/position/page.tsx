@@ -100,7 +100,7 @@ export default function TailwindPositionTutorial() {
         }
       ]
     }
-  };
+  } as any;
 
   const positionClasses = {
     top: ['top-0', 'top-1', 'top-2', 'top-4', 'top-8', 'top-16', 'top-1/2', 'top-full'],
@@ -110,7 +110,7 @@ export default function TailwindPositionTutorial() {
     inset: ['inset-0', 'inset-1', 'inset-2', 'inset-4', 'inset-x-0', 'inset-y-0']
   };
 
-  const renderDemo = (example) => {
+  const renderDemo = (example: any) => {
     const { demo, class: className } = example;
 
     switch (demo) {
@@ -276,7 +276,7 @@ export default function TailwindPositionTutorial() {
 
           {/* 示例区域 */}
           <div className="space-y-8">
-            {sections[activeSection].examples.map((example, index) => (
+            {sections[activeSection].examples.map((example:any, index :any ) => (
               <div key={index} className="border-l-4 border-purple-400 pl-6">
                 <div className="mb-4">
                   <h3 className="text-lg font-semibold text-gray-700 mb-2">

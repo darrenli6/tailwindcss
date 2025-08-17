@@ -50,7 +50,7 @@ export default function TailwindDisplayTutorial() {
         { class: 'grid place-items-center', desc: '内容居中' }
       ]
     }
-  };
+  } as any;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
@@ -95,7 +95,7 @@ export default function TailwindDisplayTutorial() {
 
           {/* 示例区域 */}
           <div className="space-y-8">
-            {sections[activeSection].examples.map((example, index) => (
+            {sections[activeSection].examples.map((example :any, index :any) => (
               <div key={index} className="border-l-4 border-blue-400 pl-6">
                 <div className="mb-4">
                   <h3 className="text-lg font-semibold text-gray-700 mb-2">

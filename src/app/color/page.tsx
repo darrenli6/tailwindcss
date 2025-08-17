@@ -32,7 +32,7 @@ export default function ColorSpacingSystems() {
       50: '#fefce8', 100: '#fef3c7', 200: '#fde68a', 300: '#fcd34d', 400: '#fbbf24',
       500: '#f59e0b', 600: '#d97706', 700: '#b45309', 800: '#92400e', 900: '#78350f'
     }
-  }
+  } as any ;
 
   // 间距系统映射
   const spacingSystem = {
@@ -71,7 +71,7 @@ export default function ColorSpacingSystems() {
     '72': '18rem',     // 288px
     '80': '20rem',     // 320px
     '96': '24rem'      // 384px
-  }
+  } as any;
 
   return (
     <div className="min-h-screen bg-gray-50 p-4">
@@ -147,8 +147,8 @@ export default function ColorSpacingSystems() {
                       <div key={shade} className="text-center">
                         <div 
                           className="w-full h-20 rounded-lg mb-2 shadow-sm border border-gray-200 flex items-center justify-center cursor-pointer hover:scale-105 transition-transform"
-                          style={{ backgroundColor: hexValue }}
-                          onClick={() => navigator.clipboard.writeText(hexValue)}
+                          style={{ backgroundColor : hexValue as any }}
+                          onClick={() => navigator.clipboard.writeText(hexValue as any)}
                           title={`点击复制 ${hexValue}`}
                         >
                           {parseInt(shade) >= 600 && (
@@ -159,7 +159,7 @@ export default function ColorSpacingSystems() {
                           )}
                         </div>
                         <div className="text-xs font-medium text-gray-700">{selectedColor}-{shade}</div>
-                        <div className="text-xs text-gray-500 font-mono">{hexValue}</div>
+                        <div className="text-xs text-gray-500 font-mono">{hexValue as any}</div>
                       </div>
                     ))}
                   </div>
