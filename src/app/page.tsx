@@ -167,10 +167,12 @@ export default function HomePage() {
                     <span>文字颜色和背景颜色</span>
                   </li>
                   </Link>
+                  <Link href="/gradientbg" className='hover:text-orange-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
                     <span>渐变背景</span>
                   </li>
+                  </Link>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
                     <span>背景图片和位置</span>
