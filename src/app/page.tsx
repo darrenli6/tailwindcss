@@ -132,21 +132,20 @@ export default function HomePage() {
                     <span>Display 属性 (block, inline, flex, grid)</span>
                   </li>
                   </Link>
+                  <Link href="/position" className='hover:text-green-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
-                    <span>容器与间距管理</span>
+                    <span>Position 定位</span>
                   </li>
+                  </Link>
+                  <Link href="/float" className='hover:text-green-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
-                    <span>定位与层级控制</span>
+                    <span>Float 和 Clear</span>
                   </li>
+                  </Link>
                 </ul>
-                <a href="/chapter3" className="text-green-600 hover:text-green-800 font-medium hover:underline inline-flex items-center">
-                  开始学习
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
+               
               </div>
             </div>
           </div>
@@ -164,7 +163,7 @@ export default function HomePage() {
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
-                    <span>组件化思维与设计原则</span>
+                    <span>文字颜色和背景颜色</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
