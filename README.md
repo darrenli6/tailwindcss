@@ -4,5 +4,14 @@
 
 # 运行
 ```
-
+git clone https://github.com/darrenli6/tailwindcss.git
+cd tailwindcss
+npm i
+npm run dev
 ```
+
+
+![演示图片](public/image.png)
+
+
+![演示图片](public/image1.png)
