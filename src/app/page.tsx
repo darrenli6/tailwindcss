@@ -44,19 +44,19 @@ export default function HomePage() {
                   TailwindCSS 简介与环境搭建
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
-                <Link href="/">
+                <Link href="/tailwindcss/">
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
                     <span>什么是 TailwindCSS 及其优势</span>
                   </li>
                  </Link> 
-                  <Link href="/">
+                  <Link href="/tailwindcss/">
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
                     <span>安装与配置方法</span>
                   </li>
                   </Link>
-                  <Link href="/">
+                  <Link href="/tailwindcss/">
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
                     <span>第一个 TailwindCSS 页面</span>
@@ -79,25 +79,25 @@ export default function HomePage() {
                   核心概念
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
-                <Link href="/utility" className='hover:text-purple-800'>
+                <Link href="/tailwindcss/utility" className='hover:text-purple-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
                     <span>Utility-First 设计理念</span>
                   </li>
                   </Link>
-                  <Link href="/mdlg" className='hover:text-purple-800'>
+                  <Link href="/tailwindcss/mdlg" className='hover:text-purple-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
                     <span>响应式设计前缀</span>
                   </li>
                   </Link>
-                  <Link href="/hover" className='hover:text-purple-800'>
+                  <Link href="/tailwindcss/hover" className='hover:text-purple-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
                     <span>状态变体 (hover, focus, active)</span>
                   </li>
                   </Link>
-                  <Link href="/color" className='hover:text-purple-800'>
+                  <Link href="/tailwindcss/color" className='hover:text-purple-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-purple-500 rounded-full"></span>
                     <span>颜色系统和间距系统</span>
@@ -120,25 +120,25 @@ export default function HomePage() {
                   布局与响应式设计
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
-                  <Link href="/layout" className='hover:text-green-800'>
+                  <Link href="/tailwindcss/layout" className='hover:text-green-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
                     <span>Container 和 Box Model</span>
                   </li>
                   </Link>
-                  <Link href="/display" className='hover:text-green-800'>
+                  <Link href="/tailwindcss/display" className='hover:text-green-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
                     <span>Display 属性 (block, inline, flex, grid)</span>
                   </li>
                   </Link>
-                  <Link href="/position" className='hover:text-green-800'>
+                  <Link href="/tailwindcss/position" className='hover:text-green-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
                     <span>Position 定位</span>
                   </li>
                   </Link>
-                  <Link href="/float" className='hover:text-green-800'>
+                  <Link href="/tailwindcss/float" className='hover:text-green-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-green-500 rounded-full"></span>
                     <span>Float 和 Clear</span>
@@ -161,26 +161,30 @@ export default function HomePage() {
                 颜色与背景
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
-                  <Link href="/fontcolor" className='hover:text-orange-800'>
+                  <Link href="/tailwindcss/fontcolor" className='hover:text-orange-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
                     <span>文字颜色和背景颜色</span>
                   </li>
                   </Link>
-                  <Link href="/gradientbg" className='hover:text-orange-800'>
+                  <Link href="/tailwindcss/gradientbg" className='hover:text-orange-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
                     <span>渐变背景</span>
                   </li>
                   </Link>
+                  <Link href="/tailwindcss/bgpic" className='hover:text-orange-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
                     <span>背景图片和位置</span>
                   </li>
+                  </Link>
+                  <Link href="/tailwindcss/transparent" className='hover:text-orange-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-orange-500 rounded-full"></span>
                     <span>透明度和混合模式</span>
                   </li>
+                  </Link>
                 </ul>
               
               </div>
@@ -197,30 +201,28 @@ export default function HomePage() {
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-indigo-600 transition-colors">
                 字体与文字
                 </h3>
+                
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
+                <Link href="/tailwindcss/fontfamily" className='hover:text-orange-800'>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
-                    <span>tailwind.config.js 深度配置</span>
+                    <span>字体家族和字重</span>
+                  </li>
+                 </Link> 
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
+                    <span>文字大小和行高</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
-                    <span>自定义颜色与字体系统</span>
+                    <span>文字对齐和装饰</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
-                    <span>插件开发与第三方集成</span>
-                  </li>
-                  <li className="flex items-center space-x-2">
-                    <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full"></span>
-                    <span>构建优化与生产部署</span>
+                    <span>字母和单词间距</span>
                   </li>
                 </ul>
-                <a href="/chapter5" className="text-indigo-600 hover:text-indigo-800 font-medium hover:underline inline-flex items-center">
-                  开始学习
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
+               
               </div>
             </div>
           </div>
@@ -233,32 +235,155 @@ export default function HomePage() {
               </div>
               <div className="flex-1">
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">
-                  实战项目与进阶应用
+                间距与尺寸
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm mb-4">
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
-                    <span>企业级仪表板开发</span>
+                    <span>Margin 和 Padding 系统</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
-                    <span>电商网站界面构建</span>
+                    <span>宽度和高度设置</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
-                    <span>移动端应用界面开发</span>
+                    <span>最小/最大尺寸</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
-                    <span>团队协作与代码规范</span>
+                    <span>间距的响应式使用</span>
                   </li>
                 </ul>
-                <a href="/chapter6" className="text-pink-600 hover:text-pink-800 font-medium hover:underline inline-flex items-center">
-                  开始学习
-                  <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
+                 
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-all duration-300 group">
+            <div className="flex items-start space-x-4">
+              <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-rose-500 rounded-lg flex items-center justify-center text-white font-bold shadow-md">
+                07
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">
+                边框与圆角
+                </h3>
+                <ul className="space-y-2 text-gray-600 text-sm mb-4">
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>边框样式、宽度、颜色</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>圆角设置</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>边框分割线</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>轮廓 (Outline)</span>
+                  </li>
+                </ul>
+                 
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-all duration-300 group">
+            <div className="flex items-start space-x-4">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-rose-500 rounded-lg flex items-center justify-center text-white font-bold shadow-md">
+                08
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">
+                阴影与效果
+                </h3>
+                <ul className="space-y-2 text-gray-600 text-sm mb-4">
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>盒子阴影</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>文字阴影</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>滤镜效果</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>变换 (Transform)</span>
+                  </li>
+                </ul>
+                 
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-all duration-300 group">
+            <div className="flex items-start space-x-4">
+              <div className="w-12 h-12 bg-gradient-to-r from-black-500 to-rose-500 rounded-lg flex items-center justify-center text-white font-bold shadow-md">
+                09
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">
+                Flexbox 详解
+                </h3>
+                <ul className="space-y-2 text-gray-600 text-sm mb-4">
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>Flex 容器和项目</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>主轴和交叉轴对齐</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>Flex 方向和换行</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>Flex 项目的增长和收缩</span>
+                  </li>
+                </ul>
+                 
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-xl shadow-lg border border-gray-100 p-6 hover:shadow-xl transition-all duration-300 group">
+            <div className="flex items-start space-x-4">
+              <div className="w-12 h-12 bg-gradient-to-r from-yellow-500 to-rose-500 rounded-lg flex items-center justify-center text-white font-bold shadow-md">
+                10
+              </div>
+              <div className="flex-1">
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">
+                Grid 布局
+                </h3>
+                <ul className="space-y-2 text-gray-600 text-sm mb-4">
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>Grid 容器和项目</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>网格模板和间距</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>Grid 项目定位</span>
+                  </li>
+                  <li className="flex items-center space-x-2">
+                    <span className="w-1.5 h-1.5 bg-pink-500 rounded-full"></span>
+                    <span>响应式网格布局</span>
+                  </li>
+                </ul>
+                 
               </div>
             </div>
           </div>
